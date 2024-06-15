@@ -1,0 +1,6 @@
+The following is a VGG19 based architecture for tumor detection where I have used transfer learining with three fully connected layers and one output layer consisting of 1024,1024,512 and 2 neurons respectively. 
+The dataset which was used to train, validate and test the model is available on kaggle: https://www.kaggle.com/datasets/abhranta/brain-tumor-detection-mri
+
+The above mentioned dataset is then divided using a splitfolder library where 70% data is kept in train, 20% in validation and remaining 10% in test folder
+
+After training the folder you can run the streamlit app.py using the command python -m streamlit runapp app.py
